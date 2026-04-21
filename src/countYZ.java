@@ -1,25 +1,25 @@
 public class countYZ {
 
-    public static void main(String[] args) {
+    public static int countYZ(String str) {
 
-        public int countYZ (String []){
-            int len = str.length();
-            int count = 0;
-            String str;
-            for (int i = 0; i < len - 2; i++) {
+        int count = 0;
 
-                char c = str.charAt(i);
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
 
-                if (c == str.charAt(i + 1) && c == str.charAt(i + 2))
-                    count++;
+            if (c == 'y' || c == 'z') {
+
             }
-                   return count;
+            if (i == str.length() - 1 || !Character.isLetter(str.charAt(i + 1))) {
+                count++;
+            }
         }
 
+
+        return count;
     }
+
 }
-
-
 
 
 
