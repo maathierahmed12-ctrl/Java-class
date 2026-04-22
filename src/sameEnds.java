@@ -1,5 +1,5 @@
 public class sameEnds {
-    public static Integer sumEnds(String str, String C, String strat, String end) {
+    public static Integer sameEnds(String str, String C, String strat, String end) {
 
         int len = str.length();
 
