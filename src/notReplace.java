@@ -1,0 +1,5 @@
+public class notReplace {
+    public static String notReplace(String str) {
+
+    }
+}
