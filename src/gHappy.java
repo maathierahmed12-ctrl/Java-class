@@ -1,5 +1,5 @@
 public class gHappy {
-    public static Boolean equalIsNot(String str) {
+    public static Boolean gHappy(String str) {
         int len = str.length();
         boolean happy = true;
 

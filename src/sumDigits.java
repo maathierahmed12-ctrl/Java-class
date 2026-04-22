@@ -1,5 +1,5 @@
 public class sumDigits {
-    public static Integer equalIsNot(String str, String C) {
+    public static Integer sumDigits(String str, String C) {
         int len = str.length();
         int sum = 0;
 

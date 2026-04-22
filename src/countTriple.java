@@ -1,5 +1,5 @@
 public class countTriple {
-    public static Boolean equalIsNot(String str , String C) {
+    public static Integer countTriple(String str , String C) {
 
 
         int len = str.length();
