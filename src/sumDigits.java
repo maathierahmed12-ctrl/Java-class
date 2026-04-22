@@ -7,7 +7,7 @@ public class sumDigits {
 
             if (Character.isDigit(str.charAt(i))) {
 
-                String C = str.substring(i,i+1);
+                String c = str.substring(i,i+1);
 
                 sum += Integer.parseInt(C);
             }
