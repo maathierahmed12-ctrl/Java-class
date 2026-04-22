@@ -1,6 +1,11 @@
 public class notReplace {
-    public static String notReplace(String str) {
-        public String notReplace(String str) {
+    public static void main(String[] args) {
+
+
+
+    }
+
+        public static String notReplace(String str) {
             int len = str.length();
 
             String result = "";
